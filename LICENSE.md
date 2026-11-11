@@ -1,13 +1,15 @@
-# Licence · KAI brand assets identity-v1.3.0
+# Licence · KAI brand assets identity-v1.4.0
 
 ## 1. KAI marks: all rights reserved
 The KAI name, wordmark, symbol, lockups, endorsed lockup, app icons, favicons, social avatar, link-preview image,
-the email-signature logo and the office templates in `templates/office` (everything outside `tokens/`) are © 2026 KUEM.
+the email-signature logo, the office templates in `templates/office` and the state icons in `icons/state` (everything outside `tokens/`) are © 2026 KUEM.
 All rights reserved.
 
 They are trademarks of KUEM. You may use them only to refer to KAI, without alteration, and as described in the KAI
 brand guidelines included in this release. Using them does not imply any partnership, endorsement or licence beyond
 that. Any other use needs written permission from KUEM.
+
+You may use the state icons inside KAI and in software that integrates with KAI, coloured with the KAI tokens and only with the meaning given in the guidelines.
 
 You may use the office templates to create documents and presentations about KAI. Replace the sample content, which is
 synthetic, and keep the KAI marks unaltered.
