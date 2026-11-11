@@ -1517,6 +1517,41 @@
       ]
     }
   },
+  "breakpoint.compact": {
+    "$type": "dimension",
+    "$value": {
+      "value": 600,
+      "unit": "px"
+    }
+  },
+  "breakpoint.medium": {
+    "$type": "dimension",
+    "$value": {
+      "value": 900,
+      "unit": "px"
+    }
+  },
+  "breakpoint.expanded": {
+    "$type": "dimension",
+    "$value": {
+      "value": 1200,
+      "unit": "px"
+    }
+  },
+  "elevation.raised": {
+    "$type": "dimension",
+    "$value": {
+      "value": 3,
+      "unit": "px"
+    }
+  },
+  "elevation.overlay": {
+    "$type": "dimension",
+    "$value": {
+      "value": 8,
+      "unit": "px"
+    }
+  },
   "button.radius": {
     "$type": "dimension",
     "$value": {
@@ -1671,5 +1706,49 @@
   "focus.color": {
     "$type": "color",
     "$value": "#001D2F"
+  },
+  "shadow.raised": {
+    "$type": "shadow",
+    "$value": {
+      "color": "#00000000",
+      "offsetX": {
+        "value": 0,
+        "unit": "px"
+      },
+      "offsetY": {
+        "value": 0,
+        "unit": "px"
+      },
+      "blur": {
+        "value": 0,
+        "unit": "px"
+      },
+      "spread": {
+        "value": 0,
+        "unit": "px"
+      }
+    }
+  },
+  "shadow.overlay": {
+    "$type": "shadow",
+    "$value": {
+      "color": "#00000000",
+      "offsetX": {
+        "value": 0,
+        "unit": "px"
+      },
+      "offsetY": {
+        "value": 0,
+        "unit": "px"
+      },
+      "blur": {
+        "value": 0,
+        "unit": "px"
+      },
+      "spread": {
+        "value": 0,
+        "unit": "px"
+      }
+    }
   }
 }

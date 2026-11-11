@@ -1,5 +1,5 @@
-/* KAI design tokens, identity-v1.4.0. MIT licence (see LICENSE-TOKENS.txt). */
-/* GENERATED from design-tokens/src by tools/foundations (npm run adapters). Do not edit. Values: ADR 0005; chart colours and adapters: ADR 0006; chart scales: ADR 0008 (approved); motion roles: ADR 0009 (approved). */
+/* KAI design tokens, identity-v1.5.0. MIT licence (see LICENSE-TOKENS.txt). */
+/* GENERATED from design-tokens/src by tools/foundations (npm run adapters). Do not edit. Values: ADR 0005; chart colours and adapters: ADR 0006; chart scales: ADR 0008 (approved); motion roles: ADR 0009 (approved); breakpoints and elevation: ADR 0014 (approved). */
 :root, [data-kai-theme="light"] {
   --kai-color-cobalt-50: #F0F8FE;
   --kai-color-cobalt-100: #E0F1FE;
@@ -273,6 +273,9 @@
   --kai-motion-transition-track-step: var(--kai-motion-duration-base) var(--kai-motion-easing-standard) 0ms;
   --kai-motion-transition-reveal: var(--kai-motion-duration-base) var(--kai-motion-easing-enter) 0ms;
   --kai-motion-transition-mark-fill: var(--kai-motion-duration-mark) var(--kai-motion-easing-emphasis) 0ms;
+  --kai-breakpoint-compact: 600px;
+  --kai-breakpoint-medium: 900px;
+  --kai-breakpoint-expanded: 1200px;
   --kai-button-radius: 6px;
   --kai-button-height: 32px;
   --kai-button-padding-x: 16px;
@@ -299,6 +302,8 @@
   --kai-focus-width: 2px;
   --kai-focus-offset: 2px;
   --kai-focus-color: #0171A3;
+  --kai-shadow-raised: 0px 2px 8px 0px #01324B29;
+  --kai-shadow-overlay: 0px 8px 24px 0px #01324B3D;
 }
 @media (prefers-color-scheme: dark) { :root:not([data-kai-theme]) {
   --kai-color-brand-mark: #C3E3F9;
@@ -385,6 +390,8 @@
   --kai-card-border: #292F33;
   --kai-card-bg: #151A1E;
   --kai-focus-color: #64AEDC;
+  --kai-shadow-raised: 0px 2px 8px 0px #0000007A;
+  --kai-shadow-overlay: 0px 8px 24px 0px #00000099;
 } }
 [data-kai-theme="dark"] {
   --kai-color-brand-mark: #C3E3F9;
@@ -471,6 +478,8 @@
   --kai-card-border: #292F33;
   --kai-card-bg: #151A1E;
   --kai-focus-color: #64AEDC;
+  --kai-shadow-raised: 0px 2px 8px 0px #0000007A;
+  --kai-shadow-overlay: 0px 8px 24px 0px #00000099;
 }
 @media (prefers-contrast: more) { :root:not([data-kai-theme]) {
   --kai-color-bg-canvas: #FFFFFF;
@@ -534,6 +543,8 @@
   --kai-input-border: #151A1E;
   --kai-card-border: #5D646A;
   --kai-focus-color: #001D2F;
+  --kai-shadow-raised: none;
+  --kai-shadow-overlay: none;
 } }
 @media (prefers-contrast: more) and (prefers-color-scheme: dark) { :root:not([data-kai-theme]) {
   --kai-color-brand-mark: #C3E3F9;
@@ -623,6 +634,8 @@
   --kai-card-border: #999FA4;
   --kai-card-bg: #000000;
   --kai-focus-color: #E0F1FE;
+  --kai-shadow-raised: none;
+  --kai-shadow-overlay: none;
 } }
 [data-kai-theme="light-hc"] {
   --kai-color-bg-canvas: #FFFFFF;
@@ -686,6 +699,8 @@
   --kai-input-border: #151A1E;
   --kai-card-border: #5D646A;
   --kai-focus-color: #001D2F;
+  --kai-shadow-raised: none;
+  --kai-shadow-overlay: none;
 }
 [data-kai-theme="dark-hc"] {
   --kai-color-brand-mark: #C3E3F9;
@@ -775,5 +790,7 @@
   --kai-card-border: #999FA4;
   --kai-card-bg: #000000;
   --kai-focus-color: #E0F1FE;
+  --kai-shadow-raised: none;
+  --kai-shadow-overlay: none;
 }
 @media (prefers-reduced-motion: reduce) { :root { --kai-motion-duration-fast: 0ms; --kai-motion-duration-base: 0ms; --kai-motion-duration-slow: 0ms; --kai-motion-duration-mark: 0ms; } }
