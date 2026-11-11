@@ -1,12 +1,16 @@
-# Licence · KAI brand assets identity-v1.0.0
+# Licence · KAI brand assets identity-v1.3.0
 
 ## 1. KAI marks: all rights reserved
-The KAI name, wordmark, symbol, lockups, endorsed lockup, app icons, favicons, social avatar, link-preview image and
-the email-signature logo (everything outside `tokens/`) are © 2026 KUEM. All rights reserved.
+The KAI name, wordmark, symbol, lockups, endorsed lockup, app icons, favicons, social avatar, link-preview image,
+the email-signature logo and the office templates in `templates/office` (everything outside `tokens/`) are © 2026 KUEM.
+All rights reserved.
 
 They are trademarks of KUEM. You may use them only to refer to KAI, without alteration, and as described in the KAI
 brand guidelines included in this release. Using them does not imply any partnership, endorsement or licence beyond
 that. Any other use needs written permission from KUEM.
+
+You may use the office templates to create documents and presentations about KAI. Replace the sample content, which is
+synthetic, and keep the KAI marks unaltered.
 
 ## 2. Design tokens: MIT
 The files in `tokens/` are licensed under the MIT licence; see `LICENSE-TOKENS.txt`. The MIT licence grants no rights

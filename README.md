@@ -1,7 +1,7 @@
-# KAI brand assets · identity-v1.0.0
+# KAI brand assets · identity-v1.3.0
 
 Official logo, app icon, favicon, token and template files for **KAI**, the B2B AI operational platform by KUEM.
-Read `guidelines/KAI-brand-guidelines-identity-v1.0.0.pdf` before using any file.
+Read `guidelines/KAI-brand-guidelines-identity-v1.3.0.pdf` before using any file.
 
 | Folder | Contents |
 | --- | --- |
@@ -13,7 +13,14 @@ Read `guidelines/KAI-brand-guidelines-identity-v1.0.0.pdf` before using any file
 | `favicons` | `favicon.svg`, `favicon.ico` (16/32/48) and PNGs, plus an HTML snippet. |
 | `tokens` | `kai.tokens.css` (custom properties for light, dark and high-contrast modes) and resolved JSON per mode. |
 | `templates` | 1200 × 630 link-preview image, 1024 px social avatar, HTML email signature with logo. |
+| `templates/office` | Microsoft Office templates: `kai-deck.potx` (16:9 slides), `kai-report.dotx`, `kai-letter.dotx` and `kai-product-sheet.dotx` (A4). They use IBM Plex as theme fonts and fall back to Arial when Plex is not installed. |
 | `guidelines` | Brand guidelines (PDF). |
+
+## What is new in identity-v1.3.0
+- Tokens (additive only; no token was renamed or removed): sequential and diverging chart scales (`color.data.seq.*`, `color.data.div.*`, `color.chart.seq.*`, `color.chart.div.*`), the brand-moment duration and easing, and transition roles (`motion.transition.*`).
+- Office templates in `templates/office`.
+- Guidelines: new pages on chart scales, product screens, evidence, confirmation, motion, voice and office templates.
+- Logo, app-icon and favicon artwork is unchanged from identity-v1.0.0; only the version line in each SVG comment differs.
 
 ## Rules in short
 - Use the files as they are: no recolouring, stretching, effects or redrawing.
