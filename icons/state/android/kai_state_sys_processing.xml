@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- KAI identity-v1.4.0. Original KAI state icon, © KUEM; use only with its meaning as described in the KAI brand guidelines (ADR 0005). Processing. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp" android:viewportWidth="24" android:viewportHeight="24"
+    android:tint="?android:attr/colorControlNormal">
+  <path android:pathData="M19.5 12A7.5 7.5 0 1 1 4.5 12A7.5 7.5 0 1 1 19.5 12Z" android:strokeColor="#FF000000" android:strokeWidth="2" android:strokeLineCap="square" android:strokeLineJoin="miter"/>
+  <path android:pathData="M15 4.5A3 3 0 1 1 9 4.5A3 3 0 1 1 15 4.5Z" android:fillColor="#FF000000"/>
+</vector>
