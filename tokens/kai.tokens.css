@@ -1,5 +1,5 @@
-/* KAI design tokens, identity-v1.0.0. MIT licence (see LICENSE-TOKENS.txt). */
-/* GENERATED from design-tokens/src by tools/foundations (npm run adapters). Do not edit. Values: ADR 0005; chart colours and adapters: ADR 0006 (approved). */
+/* KAI design tokens, identity-v1.3.0. MIT licence (see LICENSE-TOKENS.txt). */
+/* GENERATED from design-tokens/src by tools/foundations (npm run adapters). Do not edit. Values: ADR 0005; chart colours and adapters: ADR 0006; chart scales: ADR 0008 (approved); motion roles: ADR 0009 (approved). */
 :root, [data-kai-theme="light"] {
   --kai-color-cobalt-50: #F0F8FE;
   --kai-color-cobalt-100: #E0F1FE;
@@ -70,6 +70,34 @@
   --kai-color-chart-azure-light: #1488A2;
   --kai-color-chart-azure-light-hc: #01697E;
   --kai-color-chart-azure-dark: #8DD8ED;
+  --kai-color-chart-seq-light-1: #DCEEFA;
+  --kai-color-chart-seq-light-2: #B3D6EE;
+  --kai-color-chart-seq-light-3: #83BCE2;
+  --kai-color-chart-seq-light-4: #509ECE;
+  --kai-color-chart-seq-light-5: #1680B5;
+  --kai-color-chart-seq-light-6: #03628D;
+  --kai-color-chart-seq-light-7: #024565;
+  --kai-color-chart-div-light-1: #014D71;
+  --kai-color-chart-div-light-2: #247DAD;
+  --kai-color-chart-div-light-3: #87B8D9;
+  --kai-color-chart-div-light-4: #E4E8EB;
+  --kai-color-chart-div-light-5: #C2A3D6;
+  --kai-color-chart-div-light-6: #8E5BAB;
+  --kai-color-chart-div-light-7: #5D3075;
+  --kai-color-chart-seq-dark-1: #1A394C;
+  --kai-color-chart-seq-dark-2: #23526F;
+  --kai-color-chart-seq-dark-3: #2B6D93;
+  --kai-color-chart-seq-dark-4: #3989B7;
+  --kai-color-chart-seq-dark-5: #56A4D5;
+  --kai-color-chart-seq-dark-6: #7FC0EA;
+  --kai-color-chart-seq-dark-7: #B3DEFB;
+  --kai-color-chart-div-dark-1: #A6D8FA;
+  --kai-color-chart-div-dark-2: #55A8DB;
+  --kai-color-chart-div-dark-3: #23709B;
+  --kai-color-chart-div-dark-4: #303336;
+  --kai-color-chart-div-dark-5: #7E5596;
+  --kai-color-chart-div-dark-6: #B788D4;
+  --kai-color-chart-div-dark-7: #E1C4F3;
   --kai-color-brand-ink: #01324B;
   --kai-color-brand-on-ink: #F0F8FE;
   --kai-color-brand-action: #004869;
@@ -148,6 +176,20 @@
   --kai-color-data-grid: #E3E9ED;
   --kai-color-data-axis: #7A8187;
   --kai-color-data-gap: #999FA4;
+  --kai-color-data-seq-1: #DCEEFA;
+  --kai-color-data-seq-2: #B3D6EE;
+  --kai-color-data-seq-3: #83BCE2;
+  --kai-color-data-seq-4: #509ECE;
+  --kai-color-data-seq-5: #1680B5;
+  --kai-color-data-seq-6: #03628D;
+  --kai-color-data-seq-7: #024565;
+  --kai-color-data-div-1: #014D71;
+  --kai-color-data-div-2: #247DAD;
+  --kai-color-data-div-3: #87B8D9;
+  --kai-color-data-div-4: #E4E8EB;
+  --kai-color-data-div-5: #C2A3D6;
+  --kai-color-data-div-6: #8E5BAB;
+  --kai-color-data-div-7: #5D3075;
   --kai-font-family-sans: "IBM Plex Sans", system-ui, sans-serif;
   --kai-font-family-mono: "IBM Plex Mono", ui-monospace, monospace;
   --kai-font-weight-regular: 400;
@@ -218,9 +260,19 @@
   --kai-motion-duration-base: 200ms;
   --kai-motion-duration-slow: 320ms;
   --kai-motion-duration-step-min: 400ms;
+  --kai-motion-duration-mark: 560ms;
   --kai-motion-easing-standard: cubic-bezier(0.2, 0, 0, 1);
   --kai-motion-easing-enter: cubic-bezier(0, 0, 0, 1);
   --kai-motion-easing-exit: cubic-bezier(0.3, 0, 1, 1);
+  --kai-motion-easing-emphasis: cubic-bezier(0.3, 0, 0, 1);
+  --kai-motion-transition-dialog-enter: var(--kai-motion-duration-base) var(--kai-motion-easing-enter) 0ms;
+  --kai-motion-transition-dialog-exit: var(--kai-motion-duration-fast) var(--kai-motion-easing-exit) 0ms;
+  --kai-motion-transition-sheet-enter: var(--kai-motion-duration-slow) var(--kai-motion-easing-enter) 0ms;
+  --kai-motion-transition-sheet-exit: var(--kai-motion-duration-base) var(--kai-motion-easing-exit) 0ms;
+  --kai-motion-transition-select: var(--kai-motion-duration-fast) var(--kai-motion-easing-standard) 0ms;
+  --kai-motion-transition-track-step: var(--kai-motion-duration-base) var(--kai-motion-easing-standard) 0ms;
+  --kai-motion-transition-reveal: var(--kai-motion-duration-base) var(--kai-motion-easing-enter) 0ms;
+  --kai-motion-transition-mark-fill: var(--kai-motion-duration-mark) var(--kai-motion-easing-emphasis) 0ms;
   --kai-button-radius: 6px;
   --kai-button-height: 32px;
   --kai-button-padding-x: 16px;
@@ -310,6 +362,20 @@
   --kai-color-data-series-6: #8DD8ED;
   --kai-color-data-grid: #292F33;
   --kai-color-data-gap: #5D646A;
+  --kai-color-data-seq-1: #1A394C;
+  --kai-color-data-seq-2: #23526F;
+  --kai-color-data-seq-3: #2B6D93;
+  --kai-color-data-seq-4: #3989B7;
+  --kai-color-data-seq-5: #56A4D5;
+  --kai-color-data-seq-6: #7FC0EA;
+  --kai-color-data-seq-7: #B3DEFB;
+  --kai-color-data-div-1: #A6D8FA;
+  --kai-color-data-div-2: #55A8DB;
+  --kai-color-data-div-3: #23709B;
+  --kai-color-data-div-4: #303336;
+  --kai-color-data-div-5: #7E5596;
+  --kai-color-data-div-6: #B788D4;
+  --kai-color-data-div-7: #E1C4F3;
   --kai-button-primary-bg: #7CBDE7;
   --kai-button-primary-bg-hover: #96CCEF;
   --kai-button-primary-fg: #0C1013;
@@ -382,6 +448,20 @@
   --kai-color-data-series-6: #8DD8ED;
   --kai-color-data-grid: #292F33;
   --kai-color-data-gap: #5D646A;
+  --kai-color-data-seq-1: #1A394C;
+  --kai-color-data-seq-2: #23526F;
+  --kai-color-data-seq-3: #2B6D93;
+  --kai-color-data-seq-4: #3989B7;
+  --kai-color-data-seq-5: #56A4D5;
+  --kai-color-data-seq-6: #7FC0EA;
+  --kai-color-data-seq-7: #B3DEFB;
+  --kai-color-data-div-1: #A6D8FA;
+  --kai-color-data-div-2: #55A8DB;
+  --kai-color-data-div-3: #23709B;
+  --kai-color-data-div-4: #303336;
+  --kai-color-data-div-5: #7E5596;
+  --kai-color-data-div-6: #B788D4;
+  --kai-color-data-div-7: #E1C4F3;
   --kai-button-primary-bg: #7CBDE7;
   --kai-button-primary-bg-hover: #96CCEF;
   --kai-button-primary-fg: #0C1013;
@@ -518,6 +598,20 @@
   --kai-color-data-grid: #42494E;
   --kai-color-data-axis: #D3D8DC;
   --kai-color-data-gap: #B8BFC4;
+  --kai-color-data-seq-1: #1A394C;
+  --kai-color-data-seq-2: #23526F;
+  --kai-color-data-seq-3: #2B6D93;
+  --kai-color-data-seq-4: #3989B7;
+  --kai-color-data-seq-5: #56A4D5;
+  --kai-color-data-seq-6: #7FC0EA;
+  --kai-color-data-seq-7: #B3DEFB;
+  --kai-color-data-div-1: #A6D8FA;
+  --kai-color-data-div-2: #55A8DB;
+  --kai-color-data-div-3: #23709B;
+  --kai-color-data-div-4: #303336;
+  --kai-color-data-div-5: #7E5596;
+  --kai-color-data-div-6: #B788D4;
+  --kai-color-data-div-7: #E1C4F3;
   --kai-button-primary-bg: #C3E3F9;
   --kai-button-primary-bg-hover: #E0F1FE;
   --kai-button-primary-fg: #000000;
@@ -656,6 +750,20 @@
   --kai-color-data-grid: #42494E;
   --kai-color-data-axis: #D3D8DC;
   --kai-color-data-gap: #B8BFC4;
+  --kai-color-data-seq-1: #1A394C;
+  --kai-color-data-seq-2: #23526F;
+  --kai-color-data-seq-3: #2B6D93;
+  --kai-color-data-seq-4: #3989B7;
+  --kai-color-data-seq-5: #56A4D5;
+  --kai-color-data-seq-6: #7FC0EA;
+  --kai-color-data-seq-7: #B3DEFB;
+  --kai-color-data-div-1: #A6D8FA;
+  --kai-color-data-div-2: #55A8DB;
+  --kai-color-data-div-3: #23709B;
+  --kai-color-data-div-4: #303336;
+  --kai-color-data-div-5: #7E5596;
+  --kai-color-data-div-6: #B788D4;
+  --kai-color-data-div-7: #E1C4F3;
   --kai-button-primary-bg: #C3E3F9;
   --kai-button-primary-bg-hover: #E0F1FE;
   --kai-button-primary-fg: #000000;
@@ -668,4 +776,4 @@
   --kai-card-bg: #000000;
   --kai-focus-color: #E0F1FE;
 }
-@media (prefers-reduced-motion: reduce) { :root { --kai-motion-duration-fast: 0ms; --kai-motion-duration-base: 0ms; --kai-motion-duration-slow: 0ms; } }
+@media (prefers-reduced-motion: reduce) { :root { --kai-motion-duration-fast: 0ms; --kai-motion-duration-base: 0ms; --kai-motion-duration-slow: 0ms; --kai-motion-duration-mark: 0ms; } }

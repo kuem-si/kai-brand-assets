@@ -275,6 +275,118 @@
     "$type": "color",
     "$value": "#8DD8ED"
   },
+  "color.chart.seq-light-1": {
+    "$type": "color",
+    "$value": "#DCEEFA"
+  },
+  "color.chart.seq-light-2": {
+    "$type": "color",
+    "$value": "#B3D6EE"
+  },
+  "color.chart.seq-light-3": {
+    "$type": "color",
+    "$value": "#83BCE2"
+  },
+  "color.chart.seq-light-4": {
+    "$type": "color",
+    "$value": "#509ECE"
+  },
+  "color.chart.seq-light-5": {
+    "$type": "color",
+    "$value": "#1680B5"
+  },
+  "color.chart.seq-light-6": {
+    "$type": "color",
+    "$value": "#03628D"
+  },
+  "color.chart.seq-light-7": {
+    "$type": "color",
+    "$value": "#024565"
+  },
+  "color.chart.div-light-1": {
+    "$type": "color",
+    "$value": "#014D71"
+  },
+  "color.chart.div-light-2": {
+    "$type": "color",
+    "$value": "#247DAD"
+  },
+  "color.chart.div-light-3": {
+    "$type": "color",
+    "$value": "#87B8D9"
+  },
+  "color.chart.div-light-4": {
+    "$type": "color",
+    "$value": "#E4E8EB"
+  },
+  "color.chart.div-light-5": {
+    "$type": "color",
+    "$value": "#C2A3D6"
+  },
+  "color.chart.div-light-6": {
+    "$type": "color",
+    "$value": "#8E5BAB"
+  },
+  "color.chart.div-light-7": {
+    "$type": "color",
+    "$value": "#5D3075"
+  },
+  "color.chart.seq-dark-1": {
+    "$type": "color",
+    "$value": "#1A394C"
+  },
+  "color.chart.seq-dark-2": {
+    "$type": "color",
+    "$value": "#23526F"
+  },
+  "color.chart.seq-dark-3": {
+    "$type": "color",
+    "$value": "#2B6D93"
+  },
+  "color.chart.seq-dark-4": {
+    "$type": "color",
+    "$value": "#3989B7"
+  },
+  "color.chart.seq-dark-5": {
+    "$type": "color",
+    "$value": "#56A4D5"
+  },
+  "color.chart.seq-dark-6": {
+    "$type": "color",
+    "$value": "#7FC0EA"
+  },
+  "color.chart.seq-dark-7": {
+    "$type": "color",
+    "$value": "#B3DEFB"
+  },
+  "color.chart.div-dark-1": {
+    "$type": "color",
+    "$value": "#A6D8FA"
+  },
+  "color.chart.div-dark-2": {
+    "$type": "color",
+    "$value": "#55A8DB"
+  },
+  "color.chart.div-dark-3": {
+    "$type": "color",
+    "$value": "#23709B"
+  },
+  "color.chart.div-dark-4": {
+    "$type": "color",
+    "$value": "#303336"
+  },
+  "color.chart.div-dark-5": {
+    "$type": "color",
+    "$value": "#7E5596"
+  },
+  "color.chart.div-dark-6": {
+    "$type": "color",
+    "$value": "#B788D4"
+  },
+  "color.chart.div-dark-7": {
+    "$type": "color",
+    "$value": "#E1C4F3"
+  },
   "color.brand.ink": {
     "$type": "color",
     "$value": "#01324B"
@@ -586,6 +698,62 @@
   "color.data.gap": {
     "$type": "color",
     "$value": "#999FA4"
+  },
+  "color.data.seq.1": {
+    "$type": "color",
+    "$value": "#DCEEFA"
+  },
+  "color.data.seq.2": {
+    "$type": "color",
+    "$value": "#B3D6EE"
+  },
+  "color.data.seq.3": {
+    "$type": "color",
+    "$value": "#83BCE2"
+  },
+  "color.data.seq.4": {
+    "$type": "color",
+    "$value": "#509ECE"
+  },
+  "color.data.seq.5": {
+    "$type": "color",
+    "$value": "#1680B5"
+  },
+  "color.data.seq.6": {
+    "$type": "color",
+    "$value": "#03628D"
+  },
+  "color.data.seq.7": {
+    "$type": "color",
+    "$value": "#024565"
+  },
+  "color.data.div.1": {
+    "$type": "color",
+    "$value": "#014D71"
+  },
+  "color.data.div.2": {
+    "$type": "color",
+    "$value": "#247DAD"
+  },
+  "color.data.div.3": {
+    "$type": "color",
+    "$value": "#87B8D9"
+  },
+  "color.data.div.4": {
+    "$type": "color",
+    "$value": "#E4E8EB"
+  },
+  "color.data.div.5": {
+    "$type": "color",
+    "$value": "#C2A3D6"
+  },
+  "color.data.div.6": {
+    "$type": "color",
+    "$value": "#8E5BAB"
+  },
+  "color.data.div.7": {
+    "$type": "color",
+    "$value": "#5D3075"
   },
   "font.family.sans": {
     "$type": "fontFamily",
@@ -1154,6 +1322,13 @@
       "unit": "ms"
     }
   },
+  "motion.duration.mark": {
+    "$type": "duration",
+    "$value": {
+      "value": 560,
+      "unit": "ms"
+    }
+  },
   "motion.easing.standard": {
     "$type": "cubicBezier",
     "$value": [
@@ -1180,6 +1355,167 @@
       1,
       1
     ]
+  },
+  "motion.easing.emphasis": {
+    "$type": "cubicBezier",
+    "$value": [
+      0.3,
+      0,
+      0,
+      1
+    ]
+  },
+  "motion.transition.dialog-enter": {
+    "$type": "transition",
+    "$value": {
+      "duration": {
+        "value": 200,
+        "unit": "ms"
+      },
+      "delay": {
+        "value": 0,
+        "unit": "ms"
+      },
+      "timingFunction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "motion.transition.dialog-exit": {
+    "$type": "transition",
+    "$value": {
+      "duration": {
+        "value": 120,
+        "unit": "ms"
+      },
+      "delay": {
+        "value": 0,
+        "unit": "ms"
+      },
+      "timingFunction": [
+        0.3,
+        0,
+        1,
+        1
+      ]
+    }
+  },
+  "motion.transition.sheet-enter": {
+    "$type": "transition",
+    "$value": {
+      "duration": {
+        "value": 320,
+        "unit": "ms"
+      },
+      "delay": {
+        "value": 0,
+        "unit": "ms"
+      },
+      "timingFunction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "motion.transition.sheet-exit": {
+    "$type": "transition",
+    "$value": {
+      "duration": {
+        "value": 200,
+        "unit": "ms"
+      },
+      "delay": {
+        "value": 0,
+        "unit": "ms"
+      },
+      "timingFunction": [
+        0.3,
+        0,
+        1,
+        1
+      ]
+    }
+  },
+  "motion.transition.select": {
+    "$type": "transition",
+    "$value": {
+      "duration": {
+        "value": 120,
+        "unit": "ms"
+      },
+      "delay": {
+        "value": 0,
+        "unit": "ms"
+      },
+      "timingFunction": [
+        0.2,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "motion.transition.track-step": {
+    "$type": "transition",
+    "$value": {
+      "duration": {
+        "value": 200,
+        "unit": "ms"
+      },
+      "delay": {
+        "value": 0,
+        "unit": "ms"
+      },
+      "timingFunction": [
+        0.2,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "motion.transition.reveal": {
+    "$type": "transition",
+    "$value": {
+      "duration": {
+        "value": 200,
+        "unit": "ms"
+      },
+      "delay": {
+        "value": 0,
+        "unit": "ms"
+      },
+      "timingFunction": [
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "motion.transition.mark-fill": {
+    "$type": "transition",
+    "$value": {
+      "duration": {
+        "value": 560,
+        "unit": "ms"
+      },
+      "delay": {
+        "value": 0,
+        "unit": "ms"
+      },
+      "timingFunction": [
+        0.3,
+        0,
+        0,
+        1
+      ]
+    }
   },
   "button.radius": {
     "$type": "dimension",
