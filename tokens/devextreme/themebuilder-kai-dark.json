@@ -1,0 +1,61 @@
+{
+  "_comment": "GENERATED from design-tokens/src by integrations/web/build-themes.mjs (ADR 0005 values, ADR 0006 approved). Do not edit.",
+  "baseTheme": "generic.dark",
+  "items": [
+    {
+      "key": "$base-font-family",
+      "value": "\"IBM Plex Sans\", system-ui, sans-serif"
+    },
+    {
+      "key": "$base-accent",
+      "value": "#7CBDE7"
+    },
+    {
+      "key": "$base-text-color",
+      "value": "#F4F7FA"
+    },
+    {
+      "key": "$base-label-color",
+      "value": "#B8BFC4"
+    },
+    {
+      "key": "$base-link-color",
+      "value": "#96CCEF"
+    },
+    {
+      "key": "$base-icon-color",
+      "value": "#B8BFC4"
+    },
+    {
+      "key": "$base-bg",
+      "value": "#151A1E"
+    },
+    {
+      "key": "$base-border-color",
+      "value": "#292F33"
+    },
+    {
+      "key": "$base-success",
+      "value": "#72C78B"
+    },
+    {
+      "key": "$base-warning",
+      "value": "#EBB25F"
+    },
+    {
+      "key": "$base-danger",
+      "value": "#F7857D"
+    },
+    {
+      "key": "$base-border-radius",
+      "value": "6px"
+    },
+    {
+      "key": "$datagrid-base-background-color",
+      "value": "#151A1E"
+    }
+  ],
+  "outputColorScheme": "kai-dark",
+  "makeSwatch": false,
+  "version": "26.1.6"
+}

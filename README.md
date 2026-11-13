@@ -1,7 +1,7 @@
-# KAI brand assets · identity-v1.5.0
+# KAI brand assets · identity-v1.6.0
 
 Official logo, app icon, favicon, token and template files for **KAI**, the B2B AI operational platform by KUEM.
-Read `guidelines/KAI-brand-guidelines-identity-v1.5.0.pdf` before using any file.
+Read `guidelines/KAI-brand-guidelines-identity-v1.6.0.pdf` before using any file.
 
 | Folder | Contents |
 | --- | --- |
@@ -12,13 +12,20 @@ Read `guidelines/KAI-brand-guidelines-identity-v1.5.0.pdf` before using any file
 | `app-icons/web` | PWA icons (192, 512, maskable 512), Apple touch icon and a manifest snippet. |
 | `favicons` | `favicon.svg`, `favicon.ico` (16/32/48) and PNGs, plus an HTML snippet. |
 | `tokens` | `kai.tokens.css` (custom properties for light, dark and high-contrast modes) and resolved JSON per mode, including breakpoints (`breakpoint.*`), elevation shadows (`shadow.*`) and native elevation (`elevation.*`). |
+| `tokens/android`, `tokens/apple`, `tokens/devextreme` | Platform adapters generated from the same tokens: `KaiTokens.kt` and colour resources for Jetpack Compose and Android views, `KaiTokens.swift` and `KaiColors.xcassets` for SwiftUI, and DevExtreme ThemeBuilder files per mode plus the chart palette (`kai-dx-viz.json`). |
 | `icons/state` | The 14 KAI state icons (AI information types and system states): `svg/` for web (`currentColor`), `android/` VectorDrawable XML, `ios/KaiStateIcons.xcassets` (template rendering). 24 px grid, tested at 16, 20 and 24 px. |
 | `icons/status` | The 5 KAI status marks (critical, warning, success, information, unknown) in the same three formats: `svg/`, `android/`, `ios/KaiStatusIcons.xcassets`. The shape carries the meaning; pair each mark with a word. |
 | `templates` | 1200 × 630 link-preview image, 1024 px social avatar, HTML email signature with logo. |
 | `templates/office` | Microsoft Office templates: `kai-deck.potx` (16:9 slides), `kai-report.dotx`, `kai-letter.dotx` and `kai-product-sheet.dotx` (A4). They use IBM Plex as theme fonts and fall back to Arial when Plex is not installed. |
 | `guidelines` | Brand guidelines (PDF). |
 
-## What is new in identity-v1.5.0
+## What is new in identity-v1.6.0
+- Platform adapters in `tokens/android`, `tokens/apple` and `tokens/devextreme`, the same files the KAI identity generates for Compose, SwiftUI and DevExtreme.
+- Touch targets: `size.touch-min` keeps 44 for iOS and the web and carries an Android value of 48 dp, which the Android adapter uses.
+- Guidelines: light, dark and high contrast follow the system until the user chooses Theme (System, Light, Dark) or High contrast (System, On, Off); touch-target sizes per platform; German wording is the only provisional language.
+- Logos, app icons, favicons, state icons, status marks and templates are unchanged from identity-v1.5.0, apart from the version line in each file comment.
+
+## Earlier: identity-v1.5.0
 - Status marks in `icons/status` for web, Android and iOS: original KAI artwork, drawn like the state icons.
 - Tokens (additive only; nothing renamed or removed): breakpoints 600, 900 and 1200 (`breakpoint.*`), two elevation shadows per mode (`shadow.raised`, `shadow.overlay`; none in high contrast) and native elevation in dp/pt (`elevation.*`).
 - Guidelines: new pages on tenant presentation (KAI-branded, co-branded, white-label), layout widths and elevation, native apps and large text, and number, date and time formats in EN, SL and DE. The icons page adds the status marks.
