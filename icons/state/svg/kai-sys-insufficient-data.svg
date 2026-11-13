@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter">
-<!-- KAI identity-v1.5.0. Original KAI state icon, © KUEM; use only with its meaning as described in the KAI brand guidelines (ADR 0005). -->
+<!-- KAI identity-v1.6.0. Original KAI state icon, © KUEM; use only with its meaning as described in the KAI brand guidelines (ADR 0005). -->
 <title>Insufficient data</title>
 <rect x="4" y="4" width="16" height="16" stroke-linecap="butt" stroke-dasharray="3 2.33"/><rect x="7.5" y="12.5" width="4" height="4" fill="currentColor" stroke="none"/>
 </svg>

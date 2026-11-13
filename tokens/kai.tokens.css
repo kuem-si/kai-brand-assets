@@ -1,4 +1,4 @@
-/* KAI design tokens, identity-v1.5.0. MIT licence (see LICENSE-TOKENS.txt). */
+/* KAI design tokens, identity-v1.6.0. MIT licence (see LICENSE-TOKENS.txt). */
 /* GENERATED from design-tokens/src by tools/foundations (npm run adapters). Do not edit. Values: ADR 0005; chart colours and adapters: ADR 0006; chart scales: ADR 0008 (approved); motion roles: ADR 0009 (approved); breakpoints and elevation: ADR 0014 (approved). */
 :root, [data-kai-theme="light"] {
   --kai-color-cobalt-50: #F0F8FE;

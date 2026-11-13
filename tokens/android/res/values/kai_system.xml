@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GENERATED from design-tokens/src by tools/foundations (npm run adapters). Do not edit. Values: ADR 0005; chart colours and adapters: ADR 0006; chart scales: ADR 0008 (approved); motion roles: ADR 0009 (approved); breakpoints and elevation: ADR 0014 (approved). -->
+<resources>
+    <color name="kai_splash_background">#F4F7FA</color>
+    <color name="kai_notification_accent">#004869</color>
+</resources>

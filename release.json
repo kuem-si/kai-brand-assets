@@ -1,0 +1,1167 @@
+{
+  "schemaVersion": 1,
+  "product": "kai",
+  "kind": "assets",
+  "version": "1.6.0",
+  "tag": "identity-v1.6.0",
+  "approvedBy": "docs/decisions/0019-release-identity-v1.6.0.md",
+  "outputs": [
+    {
+      "path": "LICENSE-TOKENS.txt",
+      "sha256": "57f5af604bda067805537401716b2b5e61df32e0ee8c4c4ccee527fa3f380247"
+    },
+    {
+      "path": "LICENSE.md",
+      "sha256": "b529fe8903ad1fec50899b4e59bbc257d997ff86ea3725d499c79e5c4a6f6eb0"
+    },
+    {
+      "path": "README.md",
+      "sha256": "719b92c985e9a16c8b88b1f2e8a41c22feadf636e28cc0211f875daa5f2ef251"
+    },
+    {
+      "path": "app-icons/android/play-store-512.png",
+      "sha256": "e45a7a606a03879937cb95745839e4ac8240cc4b996ec75e43599bd8866bd01a"
+    },
+    {
+      "path": "app-icons/android/res/drawable/kai_ic_launcher_foreground.xml",
+      "sha256": "b6738566968e6c9331127fd584b30da4c52ba312bdfa1ee1a1f89152dcd7fab2"
+    },
+    {
+      "path": "app-icons/android/res/drawable/kai_ic_launcher_monochrome.xml",
+      "sha256": "197663c28534c758cb675fc45bce0e8dba16592932c6b00985650f2dac9438c1"
+    },
+    {
+      "path": "app-icons/android/res/drawable/kai_ic_notification.xml",
+      "sha256": "c6841fadff7407509123690f545cfb3c5ec9e834555c720c7956e9ce05b7fdba"
+    },
+    {
+      "path": "app-icons/android/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "sha256": "0f21c8b0ced9b6b1f13d2f4892949afa1fd6cc0cb3631bdc46b40691fc6c91f8"
+    },
+    {
+      "path": "app-icons/android/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "sha256": "0f21c8b0ced9b6b1f13d2f4892949afa1fd6cc0cb3631bdc46b40691fc6c91f8"
+    },
+    {
+      "path": "app-icons/android/res/mipmap-hdpi/ic_launcher.png",
+      "sha256": "5ee09b63773ee4d516536ced56462c4f134dbd181a7efae146d82f85a6d040bb"
+    },
+    {
+      "path": "app-icons/android/res/mipmap-hdpi/ic_launcher_round.png",
+      "sha256": "7933c3983e9a3e3c68a168f75e170f1ce10b8196dc97d52119487b74613b3d9b"
+    },
+    {
+      "path": "app-icons/android/res/mipmap-mdpi/ic_launcher.png",
+      "sha256": "73ca6fbacfbcc9c2157789f283862a79257efce0ab1b1ec8638215330b1aa5b2"
+    },
+    {
+      "path": "app-icons/android/res/mipmap-mdpi/ic_launcher_round.png",
+      "sha256": "53324eeca87d8fd9249c788800c7d4a0ff4e882f2e54e15e0e0a3e43acdd5992"
+    },
+    {
+      "path": "app-icons/android/res/mipmap-xhdpi/ic_launcher.png",
+      "sha256": "9c0f435c6454c158e5bf3789c1bb21dc1ef893c7dd81bc012ffcbefde3c64dac"
+    },
+    {
+      "path": "app-icons/android/res/mipmap-xhdpi/ic_launcher_round.png",
+      "sha256": "1859e91cc3872a2a67ec9e4931cc0301446e6128b773fc103d8c4848e263dd07"
+    },
+    {
+      "path": "app-icons/android/res/mipmap-xxhdpi/ic_launcher.png",
+      "sha256": "4d64d320c94574c5acbc4c7f348aeb0c01131bbe91d676d10240b4ed0ffe4a49"
+    },
+    {
+      "path": "app-icons/android/res/mipmap-xxhdpi/ic_launcher_round.png",
+      "sha256": "728c489c1541f04c8ab5083e9c41ec277bf684632f2ea60e568092dc6f4fda9c"
+    },
+    {
+      "path": "app-icons/android/res/mipmap-xxxhdpi/ic_launcher.png",
+      "sha256": "9e76ecfe3cbb8bf6743bd9c26ad3fa438aaf73f90711dabc201cef4a21ad4c51"
+    },
+    {
+      "path": "app-icons/android/res/mipmap-xxxhdpi/ic_launcher_round.png",
+      "sha256": "20f4424044a7125261b316c2f90bf324dcf02c69657efbf521675074d470bf5e"
+    },
+    {
+      "path": "app-icons/android/res/values/kai_ic_launcher_background.xml",
+      "sha256": "c9234c6381d7682e7233bbed4c28816b96a2b39c299595abdeefdc3bca1d0f99"
+    },
+    {
+      "path": "app-icons/ios/AppIcon.appiconset/Contents.json",
+      "sha256": "c15f36baefb26c65c5f9e54793cd9a5f776060562ab5fe7de27d5ff6093d633a"
+    },
+    {
+      "path": "app-icons/ios/AppIcon.appiconset/kai-icon-1024-dark.png",
+      "sha256": "62b6c4fdf12bc40849a9aa5837f1636617cf312beaf80eb988eb5db603e86a3f"
+    },
+    {
+      "path": "app-icons/ios/AppIcon.appiconset/kai-icon-1024-tinted.png",
+      "sha256": "8934a4d2e68d7cf66e276e6ce4d40708083484330129eaf830e0fd64e46cc99f"
+    },
+    {
+      "path": "app-icons/ios/AppIcon.appiconset/kai-icon-1024.png",
+      "sha256": "2b81bca983b21fa8235ab3a30669ae6f2db98344b9ff288766660643156085bd"
+    },
+    {
+      "path": "app-icons/master/kai-app-icon-1024.png",
+      "sha256": "2b81bca983b21fa8235ab3a30669ae6f2db98344b9ff288766660643156085bd"
+    },
+    {
+      "path": "app-icons/master/kai-app-icon.svg",
+      "sha256": "7fd7ba77ddc8496da974836d92eb24758e7f273b1d9cfcf2b33aad98cd6b8f33"
+    },
+    {
+      "path": "app-icons/web/apple-touch-icon.png",
+      "sha256": "83de21ff0f90755b0a41a3604e180b094f77c7aff062cab03cf580dcd130db15"
+    },
+    {
+      "path": "app-icons/web/icon-192.png",
+      "sha256": "c42c391f91ed6ed5616ad2a55fa588e239c89795c4af7cb494572b1f9f6942e2"
+    },
+    {
+      "path": "app-icons/web/icon-512.png",
+      "sha256": "03716b50abecc4d9ed9e755a118d5d3245ad0a25931c89f7b739a4cecfb39edc"
+    },
+    {
+      "path": "app-icons/web/icon-maskable-512.png",
+      "sha256": "548c8b3b92aab5b7403ce5f63edf5cff5a8c54cd7c9873ebd78799ee1aa39501"
+    },
+    {
+      "path": "app-icons/web/manifest-icons.webmanifest",
+      "sha256": "f20266a2b40a9e2b804a5a9cec7c81432c4da63d0646ca2816323870bfec5e5b"
+    },
+    {
+      "path": "favicons/favicon-16.png",
+      "sha256": "52cacc6cce4585f5dab72872af7a1a9ba97801b05a2e2d8f5c0800f4bc38bf08"
+    },
+    {
+      "path": "favicons/favicon-32.png",
+      "sha256": "35ceade0c5214ecba09ebc7f09b99009029d08ddbc5b397ac2093b8d4a26a130"
+    },
+    {
+      "path": "favicons/favicon-48.png",
+      "sha256": "bebd99bb39045bfefb99be9637c3ef45950c67787ed288c6f02148e53986766a"
+    },
+    {
+      "path": "favicons/favicon.ico",
+      "sha256": "8ba66678eed28e113aee9f9500866a614f7eef821dc3406e52cc6b613d127209"
+    },
+    {
+      "path": "favicons/favicon.svg",
+      "sha256": "79f52aec77a857ecf53ecfc84629f65feba7da5020f8ae42919b18460a0b901e"
+    },
+    {
+      "path": "favicons/snippet.html",
+      "sha256": "308e86e05c5f72ad985f5e8e719cee3caf93e126d4dde4f8f906bf1f11409cd0"
+    },
+    {
+      "path": "guidelines/KAI-brand-guidelines-identity-v1.6.0.pdf",
+      "sha256": "74fdb7a4b073a4024e5d75979e08d4d656d8bef5333ba21476aa0f010cdd5094"
+    },
+    {
+      "path": "icons/state/android/kai_state_ai_confirmed.xml",
+      "sha256": "a046b32ef85b759bbc1d5e9adaea1e2f49e07325c72fb03075b7f2e581cde9fc"
+    },
+    {
+      "path": "icons/state/android/kai_state_ai_context.xml",
+      "sha256": "557b15fe4d1cf5bfd0cf3f14f9007804b8233072ab21488a139d554d5ab1be86"
+    },
+    {
+      "path": "icons/state/android/kai_state_ai_evidence.xml",
+      "sha256": "531facc276f5ba1df2cdc901ddf17a54bdd99ae0aa9ef5a50f111164eb80a448"
+    },
+    {
+      "path": "icons/state/android/kai_state_ai_inference.xml",
+      "sha256": "368a4c6615b1f2c8e83e350910bd6cd67c7ccfc64d333a36ecac5ee20a5ed463"
+    },
+    {
+      "path": "icons/state/android/kai_state_ai_observed.xml",
+      "sha256": "5d1ce686489a65660c4af941c19aa78aa739644300d3264d44d2032cbb2df708"
+    },
+    {
+      "path": "icons/state/android/kai_state_ai_recommendation.xml",
+      "sha256": "81bba6fea436bca93e81580bc1858cefefc557fb4bd49c9fd42fec2f4b511980"
+    },
+    {
+      "path": "icons/state/android/kai_state_ai_request.xml",
+      "sha256": "ed8df60b06f8d9680e3180cb231df3499f86da72eff20987703b9e6fb9599362"
+    },
+    {
+      "path": "icons/state/android/kai_state_sys_external.xml",
+      "sha256": "ba705930d95a593690fbd794d744cb249d2154b26ed023cb187522acec7484c6"
+    },
+    {
+      "path": "icons/state/android/kai_state_sys_failed.xml",
+      "sha256": "3eec8355513c8477a0aa9118dd6b75d73e859ea7e8e0d67423cd3551e8194541"
+    },
+    {
+      "path": "icons/state/android/kai_state_sys_insufficient_data.xml",
+      "sha256": "4d18b08d2d6f95469faa2de3e8df511de68b5ba04d5eec742e7c19e22c61a682"
+    },
+    {
+      "path": "icons/state/android/kai_state_sys_interrupted.xml",
+      "sha256": "0f758692fb2f78fbc984211bf7d23783870c22695896d606be09c5752dbe1ebf"
+    },
+    {
+      "path": "icons/state/android/kai_state_sys_local.xml",
+      "sha256": "a8bb844b345826ebf8f5f8a634beba5b4f83548f1d49b6677ac87a9a775fbc6c"
+    },
+    {
+      "path": "icons/state/android/kai_state_sys_permission_denied.xml",
+      "sha256": "06e918d8b806d6ddc9d03d4fb8d1a8b52afed0a0d23f04f909d4ff15d92b8ee0"
+    },
+    {
+      "path": "icons/state/android/kai_state_sys_processing.xml",
+      "sha256": "e7012ad36cb1ee96b0372040db2741fe7bce974f0c4918918798f1cfd902caf9"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/Contents.json",
+      "sha256": "f5fb0e1f3a8142892ed092efb5955c1c2cc537003a89ad7bbdb9dade7fe8985f"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-ai-confirmed.imageset/Contents.json",
+      "sha256": "f9cc32a0bdd028d195b70cbf1ad43d37805b2665462bcf749cf4cd4293a03e25"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-ai-confirmed.imageset/kai-ai-confirmed.svg",
+      "sha256": "e34c96ba6aa5f9be9b00bb4011d638321d1f4f81bd09f1aaa249b0b219a4aa8b"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-ai-context.imageset/Contents.json",
+      "sha256": "8dd70827b7e5813895bf5adaa2ca8c77e38a1cf4b5b867c914082a55e5473a74"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-ai-context.imageset/kai-ai-context.svg",
+      "sha256": "073580dc31c34f9790ef1d74592801e799892c94c229bdca4769ac7682c52331"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-ai-evidence.imageset/Contents.json",
+      "sha256": "f69078a082d1786956b2ee64e58b199f1201ae3e76c17fc1a014b37bf76256de"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-ai-evidence.imageset/kai-ai-evidence.svg",
+      "sha256": "741a71a01100bf28b9ca1344dceb449014c3ab393beedb89130e2089766879ca"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-ai-inference.imageset/Contents.json",
+      "sha256": "efdcd1ef8024e56891fe2df0d5e603342b35a03e2c65cca9c5dfbb36bf765794"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-ai-inference.imageset/kai-ai-inference.svg",
+      "sha256": "63fc7d2e7752f4213d8acf385d6c0936be6e16614f07d4b9671c59b89d2b00cd"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-ai-observed.imageset/Contents.json",
+      "sha256": "df9e040f6ba1452f2d4cd76e9d37721b8186fce9149af84e28ebf997cfece672"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-ai-observed.imageset/kai-ai-observed.svg",
+      "sha256": "3fe18cf3aacc0357c29ab6ba248679d7d99ecf4c209c55478f2f95173d7b88b4"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-ai-recommendation.imageset/Contents.json",
+      "sha256": "00fce48559f6b48e82c31c78d31dc25e7185c6eda1f53997f7c9b7d98eb63f47"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-ai-recommendation.imageset/kai-ai-recommendation.svg",
+      "sha256": "0af5dc7dc49e32904d4992010c17ab0d4a229283dc5cb5618726bd0cddfea520"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-ai-request.imageset/Contents.json",
+      "sha256": "f254d8f65d2954e5598dce170fa382f454375ec7dd05b10f30a7b7062202d005"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-ai-request.imageset/kai-ai-request.svg",
+      "sha256": "0c9f6f0a7ab9926da78670e6c8e55bb2e9b64aa043e8f935382615554e6dbebf"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-sys-external.imageset/Contents.json",
+      "sha256": "8ade8d0fef1d4d34b20726f1193eea65fc4b1a1ff3cd67f1c337fee787ab1df8"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-sys-external.imageset/kai-sys-external.svg",
+      "sha256": "6811c2a7776d5ec855cec84c9c58bce47ef47d9b3fb42359441eb45d456f300e"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-sys-failed.imageset/Contents.json",
+      "sha256": "552f2aa62a72b7e2686039d7a9bfcd3e069437545d1b7e529a12e97983e554e0"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-sys-failed.imageset/kai-sys-failed.svg",
+      "sha256": "fec3b39495cf2aa77c588062f7587c0285d3d2510c13216ce039ad86859f039e"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-sys-insufficient-data.imageset/Contents.json",
+      "sha256": "1e04211f4529eb9ca0317dc303a8aeaee6c6c74636fa06b94f5d837195b907ec"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-sys-insufficient-data.imageset/kai-sys-insufficient-data.svg",
+      "sha256": "8a58b7a2e1ebcbdf82297186a582820b68abd58370a60870aad2d7e77e9e8351"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-sys-interrupted.imageset/Contents.json",
+      "sha256": "770692ebb444dc756ad596c93606a6b09a5f7fe3723714c9a29e4d82ac50b8f0"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-sys-interrupted.imageset/kai-sys-interrupted.svg",
+      "sha256": "225d1d219b38f13c541e3c23e0bd70d63eb0b0c0aeb2ad5751dea38fa3e11c1c"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-sys-local.imageset/Contents.json",
+      "sha256": "2bb055fcddc4670d685d3f556e5c16fab99c14cc5890f70499aadc2d9b9174d8"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-sys-local.imageset/kai-sys-local.svg",
+      "sha256": "0d49b35fa52ef8d474a880d43716b126f991886e7e91e9c39a7ac03bd567957a"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-sys-permission-denied.imageset/Contents.json",
+      "sha256": "30cdf4011389ec7b1d7e66329ad2301ad7bca262affed07f6c8e38cc4ff6a537"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-sys-permission-denied.imageset/kai-sys-permission-denied.svg",
+      "sha256": "6351393edd61379f51b2bd2c5c12efb546f9eeef574efc8b21cd84fadcdbd237"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-sys-processing.imageset/Contents.json",
+      "sha256": "87769ef6f20c350bf964af86d64e4f50b0ddbeeecb80c6572302329f1da011f9"
+    },
+    {
+      "path": "icons/state/ios/KaiStateIcons.xcassets/kai-sys-processing.imageset/kai-sys-processing.svg",
+      "sha256": "0b2172686784b01e02601ab739bca6b1bd14f8f6a3f7346645a5222252ce854e"
+    },
+    {
+      "path": "icons/state/svg/kai-ai-confirmed.svg",
+      "sha256": "5d65ccf503a5d5e8f3ddf80ede86c1ef8359374e3031d489656b16cc5d1366c0"
+    },
+    {
+      "path": "icons/state/svg/kai-ai-context.svg",
+      "sha256": "bcd6013267dee92e626a6b4eed0856f1af60151f181eccf40a5509d0a30cf1c2"
+    },
+    {
+      "path": "icons/state/svg/kai-ai-evidence.svg",
+      "sha256": "132b8a6cceddc3170134ec3aa1ef5521256365fcf39feb56a54fd5afb9721291"
+    },
+    {
+      "path": "icons/state/svg/kai-ai-inference.svg",
+      "sha256": "788febe2ebfc0c943ab30822b7e0db0d2eaa8c0e8eef6e528de0e36ea0c91045"
+    },
+    {
+      "path": "icons/state/svg/kai-ai-observed.svg",
+      "sha256": "7854780e2fe16016ae1b611af5bbdd9ee97f85a6294d18feccaa858468f66cb5"
+    },
+    {
+      "path": "icons/state/svg/kai-ai-recommendation.svg",
+      "sha256": "e6f20b6ec24579aba57a5c93e791e96a1e78531031054be123c0224cde3ea837"
+    },
+    {
+      "path": "icons/state/svg/kai-ai-request.svg",
+      "sha256": "8f2a324972d582b292672ad02b934a7af0e051c24dedff10932ebc1f31e55b29"
+    },
+    {
+      "path": "icons/state/svg/kai-sys-external.svg",
+      "sha256": "cfbb8955902163219d22468d3d386f9f1a074e50d6d6db8cb20e7a92497bae41"
+    },
+    {
+      "path": "icons/state/svg/kai-sys-failed.svg",
+      "sha256": "e73e754f3dd3a49741cc3b2028ab41bdd214a0fd7eed4b43a8ca2a1bfd3d460d"
+    },
+    {
+      "path": "icons/state/svg/kai-sys-insufficient-data.svg",
+      "sha256": "ef42a6b22c0d3fdfc45e3055dac88f575e82eef96a2c90fdaf8cf1bf37d0602c"
+    },
+    {
+      "path": "icons/state/svg/kai-sys-interrupted.svg",
+      "sha256": "881bd47fafc56498ac0231b860ca800af8db91509d5dbee8e1a01a75bb8bcc70"
+    },
+    {
+      "path": "icons/state/svg/kai-sys-local.svg",
+      "sha256": "fee33982b1e02d4ec1a7c6d80bf53e41045429c41d68388121cf6713047c5d58"
+    },
+    {
+      "path": "icons/state/svg/kai-sys-permission-denied.svg",
+      "sha256": "4d3ff9516abf9a6e21f72c18d7aaad3f31698f7378decaf2eeebad10355f4efe"
+    },
+    {
+      "path": "icons/state/svg/kai-sys-processing.svg",
+      "sha256": "2964560bc6360885fa73ec305dcb6d0428ac070bc1d3a47414e0573ee8710361"
+    },
+    {
+      "path": "icons/status/android/kai_status_critical.xml",
+      "sha256": "d883c80cdb0e22b09768b0858b06fd367d37b4d8b6a9ed000ba095f63a48c9d7"
+    },
+    {
+      "path": "icons/status/android/kai_status_info.xml",
+      "sha256": "6481ed6db9fb5deade8e8a581767f69f5b247cf6895f505c0efecb3bab4c18b8"
+    },
+    {
+      "path": "icons/status/android/kai_status_success.xml",
+      "sha256": "5021ff7029d95570af117fcb3b29086c177bcaeea9850b083b89dc3d8fe4f07f"
+    },
+    {
+      "path": "icons/status/android/kai_status_unknown.xml",
+      "sha256": "8d068c4baf2a1cd08c39cb0ee78af2afb31b06106ed0e180d6aca245ee05db7c"
+    },
+    {
+      "path": "icons/status/android/kai_status_warning.xml",
+      "sha256": "028f9e5c59a3bcde513cb2abdbe8696bfd749c4a6f0b6a7a1cf4da879a8b0977"
+    },
+    {
+      "path": "icons/status/ios/KaiStatusIcons.xcassets/Contents.json",
+      "sha256": "f5fb0e1f3a8142892ed092efb5955c1c2cc537003a89ad7bbdb9dade7fe8985f"
+    },
+    {
+      "path": "icons/status/ios/KaiStatusIcons.xcassets/kai-status-critical.imageset/Contents.json",
+      "sha256": "eed76e3dcfe57995a5b65c8222e1959be46178becf3fbd44c7cfea5edf8a96d3"
+    },
+    {
+      "path": "icons/status/ios/KaiStatusIcons.xcassets/kai-status-critical.imageset/kai-status-critical.svg",
+      "sha256": "8260acd34cda76506cb85bff7edca6af5b1a815f0c330d4bad2f6b8aa30be951"
+    },
+    {
+      "path": "icons/status/ios/KaiStatusIcons.xcassets/kai-status-info.imageset/Contents.json",
+      "sha256": "3835c9a6cb6704450825f2f0c0116c9e8f3955a16f88983256685565c21d9c9e"
+    },
+    {
+      "path": "icons/status/ios/KaiStatusIcons.xcassets/kai-status-info.imageset/kai-status-info.svg",
+      "sha256": "eb47e62754309aacaa0cb199f5b4ecf9825ef7f1ac3805f43c6bebb9c77a6738"
+    },
+    {
+      "path": "icons/status/ios/KaiStatusIcons.xcassets/kai-status-success.imageset/Contents.json",
+      "sha256": "5f0ef1e0993f5bb6244eb9292a6a2c2be541dce13229e016e70865fff78f0147"
+    },
+    {
+      "path": "icons/status/ios/KaiStatusIcons.xcassets/kai-status-success.imageset/kai-status-success.svg",
+      "sha256": "8db73eaef63ab98f9879db91ce15b0b591a5025e6a7a7a589c1360c2aa3bfdac"
+    },
+    {
+      "path": "icons/status/ios/KaiStatusIcons.xcassets/kai-status-unknown.imageset/Contents.json",
+      "sha256": "b055e075bddcc18af107dd74063b7178ca78c65cb8246b0319f0563d12f10257"
+    },
+    {
+      "path": "icons/status/ios/KaiStatusIcons.xcassets/kai-status-unknown.imageset/kai-status-unknown.svg",
+      "sha256": "f1cb2b29f3141d9ecac2e2100a42a1349088027d163374c9b8984f2f13a55c78"
+    },
+    {
+      "path": "icons/status/ios/KaiStatusIcons.xcassets/kai-status-warning.imageset/Contents.json",
+      "sha256": "048d41635c80f0e47f0dbcbab41bb25ffcef43c2fd068a0c54685c5478a4895f"
+    },
+    {
+      "path": "icons/status/ios/KaiStatusIcons.xcassets/kai-status-warning.imageset/kai-status-warning.svg",
+      "sha256": "afeabb372252b6b7e36cc4575fad1a4474c9587864f5a6b485d4b5142bed84a3"
+    },
+    {
+      "path": "icons/status/svg/kai-status-critical.svg",
+      "sha256": "cd35c4f08c6608baef1a1e70be098a311680a7cac552979b9b68759ad2562b31"
+    },
+    {
+      "path": "icons/status/svg/kai-status-info.svg",
+      "sha256": "3a25288cd7a888b51150985a63ebb765e3fa24c962ba6a86ff3495ec81c50b81"
+    },
+    {
+      "path": "icons/status/svg/kai-status-success.svg",
+      "sha256": "1792364b140a3cb4e93569174f240c166ac366e06c2835f836dac22a53916759"
+    },
+    {
+      "path": "icons/status/svg/kai-status-unknown.svg",
+      "sha256": "9020aeb7c6d06b8b3175ee5aadf6617fd418017d51cf5a8c8710bc08a01abaf9"
+    },
+    {
+      "path": "icons/status/svg/kai-status-warning.svg",
+      "sha256": "51df7dade6ff589a26ad298a4eee266a28c71285abfcabf38fc917163cb43796"
+    },
+    {
+      "path": "logos/png/kai-lockup-black-128h.png",
+      "sha256": "89269f05d414705a07823f3ff1c0aa9c14414511b3de20e0bc136f266ba70f37"
+    },
+    {
+      "path": "logos/png/kai-lockup-black-512h.png",
+      "sha256": "05216752536740b54f69e123b9db2941795ad09a08c4ec459a8cc74a045b308f"
+    },
+    {
+      "path": "logos/png/kai-lockup-endorsed-black-128h.png",
+      "sha256": "6ec70b67bae28d6a40d29e9ed6d5eb740643dca3ceffd50ef40b825748490e6d"
+    },
+    {
+      "path": "logos/png/kai-lockup-endorsed-black-512h.png",
+      "sha256": "99d5bcfbd01ce25b07d72c55e19029f6f1c837f2543ff616fd38906a12023dfe"
+    },
+    {
+      "path": "logos/png/kai-lockup-endorsed-on-dark-128h.png",
+      "sha256": "283eda5daf3edab4c77748a27b4f89abdaa891f72be8086946b6803049e735a6"
+    },
+    {
+      "path": "logos/png/kai-lockup-endorsed-on-dark-512h.png",
+      "sha256": "991532bd820b46291303b6c65835bc1dbd4b5b5371e6efeb16e7625609c2bb74"
+    },
+    {
+      "path": "logos/png/kai-lockup-endorsed-positive-128h.png",
+      "sha256": "05299106c90d1827a4ea682f1708d632febb41ec9b523b0e9cc45395bed7bcf4"
+    },
+    {
+      "path": "logos/png/kai-lockup-endorsed-positive-512h.png",
+      "sha256": "cbc6c96d066bcaccf1c9a46d405c862f38fcdbee6183b84c9fa8941d117314fb"
+    },
+    {
+      "path": "logos/png/kai-lockup-endorsed-white-128h.png",
+      "sha256": "6c5ce8ab358757a808fe78176b0165158c2c404b9a4ac0d9f16ff02c4b1188ed"
+    },
+    {
+      "path": "logos/png/kai-lockup-endorsed-white-512h.png",
+      "sha256": "6dd579441bee9e6306bc2663df5991da22199d26b3d3af0f79b89c9787540233"
+    },
+    {
+      "path": "logos/png/kai-lockup-on-dark-128h.png",
+      "sha256": "c1e2d56346ce01828d544582cd503a5d775e12621b9a39e055edab5d3714e588"
+    },
+    {
+      "path": "logos/png/kai-lockup-on-dark-512h.png",
+      "sha256": "50b0ddbea490f0333af1c5b711768f81cba310831bfdab10c71687b75c5da971"
+    },
+    {
+      "path": "logos/png/kai-lockup-positive-128h.png",
+      "sha256": "81c0814c90ea3860354c15413842d50ec2c265bb5c7ff0ec54d5d21284efe570"
+    },
+    {
+      "path": "logos/png/kai-lockup-positive-512h.png",
+      "sha256": "7ce5d6833d759553dbc98323a357bd0eea11e2c19cbc40e20007f58a3983267b"
+    },
+    {
+      "path": "logos/png/kai-lockup-white-128h.png",
+      "sha256": "f537b536e9fb479dacdd219f8046d31f5c0069ac717114d7ff445edeefa9481b"
+    },
+    {
+      "path": "logos/png/kai-lockup-white-512h.png",
+      "sha256": "7eeb475fcfcf1879b44cbfac62f0b612df867bf6bf06a9dd17ae2a1582bf89d8"
+    },
+    {
+      "path": "logos/png/kai-symbol-black-128h.png",
+      "sha256": "94669b6b94e93f275a6510547d31917197af4c141d80dce7dfe1fdc778f7e21e"
+    },
+    {
+      "path": "logos/png/kai-symbol-black-512h.png",
+      "sha256": "ec3c865ab857ae703aab8655da926ec9fad3e0862acb194e859cb3f92177face"
+    },
+    {
+      "path": "logos/png/kai-symbol-on-dark-128h.png",
+      "sha256": "b913432009254e9c8dfcb757e5419b13ebfc9c381ab258469f1c84b3d47c3dcd"
+    },
+    {
+      "path": "logos/png/kai-symbol-on-dark-512h.png",
+      "sha256": "f00ff0a96a4f5120956f78f50777a969c7fd796ac8f356c8ca4279aab36ab4fa"
+    },
+    {
+      "path": "logos/png/kai-symbol-positive-128h.png",
+      "sha256": "b4176022061f6b3ed7ce849dd1210edee10fac489270891e86c91b56e2808205"
+    },
+    {
+      "path": "logos/png/kai-symbol-positive-512h.png",
+      "sha256": "d0ec84e01aacbf7bada6f8939ce045229cdea13b396af476d64bdbc318d16929"
+    },
+    {
+      "path": "logos/png/kai-symbol-small-black-16h.png",
+      "sha256": "5eed541872bac77893f199b39e04142eceea20b8e6a3aa48998883864a565b78"
+    },
+    {
+      "path": "logos/png/kai-symbol-small-black-24h.png",
+      "sha256": "0018c20f8227e1371b112ddbce8608b80f38ba69382f55fed2aefa5f2b503c2e"
+    },
+    {
+      "path": "logos/png/kai-symbol-small-black-48h.png",
+      "sha256": "5db3838c9ab7841055ca400595c2b470b415423bc5aba080e1e4a8dab587c17d"
+    },
+    {
+      "path": "logos/png/kai-symbol-small-on-dark-16h.png",
+      "sha256": "89241721a6a0848d488edb7f435968fd3b60c1c53da997be1ccd5b35347d151f"
+    },
+    {
+      "path": "logos/png/kai-symbol-small-on-dark-24h.png",
+      "sha256": "75957f18b4d80b93585ac355f94dfbaefb55cdb6765fb4eb7a6a30de47662277"
+    },
+    {
+      "path": "logos/png/kai-symbol-small-on-dark-48h.png",
+      "sha256": "058337be3a95cc77d3e1600b56b1f7f169e357ee87ee947633c58e584b2bc630"
+    },
+    {
+      "path": "logos/png/kai-symbol-small-positive-16h.png",
+      "sha256": "d962f3f8e5ccc078aee0fcb4d84e62f7932d09a7865c51abccb5277ac611daf9"
+    },
+    {
+      "path": "logos/png/kai-symbol-small-positive-24h.png",
+      "sha256": "d15090772e3105001dbfd2b0024922dfb47931828f754153526070ab503b4b45"
+    },
+    {
+      "path": "logos/png/kai-symbol-small-positive-48h.png",
+      "sha256": "1b6fbd945d3ab0be48ada71c12aa4530c4aa50e0dc552f0308aec399542660b2"
+    },
+    {
+      "path": "logos/png/kai-symbol-small-white-16h.png",
+      "sha256": "792d413e97bc74fe121bc173ec9970f2d513c92db4a4a3d55353f6598c669c57"
+    },
+    {
+      "path": "logos/png/kai-symbol-small-white-24h.png",
+      "sha256": "602a817e7a4b422647f65e93f8dac0b7c8bd644d1a175ec69c1374e405b37f1e"
+    },
+    {
+      "path": "logos/png/kai-symbol-small-white-48h.png",
+      "sha256": "3d4e4b74b749926e6c7c4665fa563e11b571005cdff0aae7dd5bf0b59d94a732"
+    },
+    {
+      "path": "logos/png/kai-symbol-white-128h.png",
+      "sha256": "687a4e11e9b1c667edb5968a9ef2c664733a86da1c897c32d756a577b56de0bc"
+    },
+    {
+      "path": "logos/png/kai-symbol-white-512h.png",
+      "sha256": "cd6abec682b7ac47094056108859c02c33d77c7a6c4ef09b9d4c5f2cbf355091"
+    },
+    {
+      "path": "logos/png/kai-wordmark-black-128h.png",
+      "sha256": "9b3005533c268f6b72b7524e97d5902011f387a8c5de8fff2dcfec4a1052a668"
+    },
+    {
+      "path": "logos/png/kai-wordmark-black-512h.png",
+      "sha256": "55f06eb4e2a8e0e0fab3feaffcc8d4e19ecf20ef54f63f69cde5932b6e59d698"
+    },
+    {
+      "path": "logos/png/kai-wordmark-on-dark-128h.png",
+      "sha256": "43bec7775bc2ff045744bd5797a81c8bf2d503d1fac6e6f4f92343361740f67e"
+    },
+    {
+      "path": "logos/png/kai-wordmark-on-dark-512h.png",
+      "sha256": "781c30c8067b3bf699f66edb8b0c0b1ad72b70f0fac4add9d5f60c702d75f569"
+    },
+    {
+      "path": "logos/png/kai-wordmark-positive-128h.png",
+      "sha256": "3e2869a489e19006ccd264592d7c97d8979743b7bbbce6f454d7e7422d49ff41"
+    },
+    {
+      "path": "logos/png/kai-wordmark-positive-512h.png",
+      "sha256": "0818718d0dd4748a487d99a78f2a20c7cdc1b801f822cbeb68c33b3166e82138"
+    },
+    {
+      "path": "logos/png/kai-wordmark-white-128h.png",
+      "sha256": "d106f70cda1cc3612078ff612bb26f4fe918193279d2daf016e2c17a9fe993e8"
+    },
+    {
+      "path": "logos/png/kai-wordmark-white-512h.png",
+      "sha256": "a01923b9ff0ef99f483f21b08b047e21cd091ab20be805377fbd8e64147b1456"
+    },
+    {
+      "path": "logos/svg/kai-lockup-black.svg",
+      "sha256": "f7e0cc71da1897b0d731fb1cee38a4f17e7ceb2d8d4e3a607beac9ac04bf32ff"
+    },
+    {
+      "path": "logos/svg/kai-lockup-endorsed-black.svg",
+      "sha256": "cf014c4a79609c10e88678e742adb2ad93df246f7129c9125b86dfe48e60bed1"
+    },
+    {
+      "path": "logos/svg/kai-lockup-endorsed-on-dark.svg",
+      "sha256": "b441be687435d179927459de9c0e908a54b7040537153ae875dfc084960285ca"
+    },
+    {
+      "path": "logos/svg/kai-lockup-endorsed-positive.svg",
+      "sha256": "ba47ee618c87d576ae20546c6f63bae279f7872aada6d4fa175ea148b9b1ca7a"
+    },
+    {
+      "path": "logos/svg/kai-lockup-endorsed-white.svg",
+      "sha256": "8d281216e24986124b699e4a6878e387a4c80c1b281567513bac0bcdfa1c7145"
+    },
+    {
+      "path": "logos/svg/kai-lockup-on-dark.svg",
+      "sha256": "b095f0d7e954ceed21ee0432caef183e381bdf90ba7e49f14baf2d7a61ddfeda"
+    },
+    {
+      "path": "logos/svg/kai-lockup-positive.svg",
+      "sha256": "9595cfaf773f676951624432e6429721f913c957fd38c59f9e663a36b5bd8de9"
+    },
+    {
+      "path": "logos/svg/kai-lockup-white.svg",
+      "sha256": "0f5c8695eed94332b1f92676cf58caee045dd450fad8a7826fd92ae29b2d241c"
+    },
+    {
+      "path": "logos/svg/kai-symbol-black.svg",
+      "sha256": "28163c21dac26865882332f71016c9988a7f1ed7e7d04489a74791e76782bef0"
+    },
+    {
+      "path": "logos/svg/kai-symbol-on-dark.svg",
+      "sha256": "df2bc489ce0eea77941e8c7ec3a6c89608f9af0718cfe5bffd094b4099a12d8e"
+    },
+    {
+      "path": "logos/svg/kai-symbol-positive.svg",
+      "sha256": "52330824f6149d5369f835037799b3af76182d752380fa5f2448117791c68db2"
+    },
+    {
+      "path": "logos/svg/kai-symbol-small-black.svg",
+      "sha256": "074ec181a289607de7dfac1a8f88fff00c1cf50b23782f3afcc36cc383fca155"
+    },
+    {
+      "path": "logos/svg/kai-symbol-small-on-dark.svg",
+      "sha256": "51e7320438d49e1ab780b961eee42982475f837bdb90de778d5586fbefa9a592"
+    },
+    {
+      "path": "logos/svg/kai-symbol-small-positive.svg",
+      "sha256": "2805f18c08670ee86baa2bcca1db0f4c37fd0d2f581b5fc47d23186494c7ae09"
+    },
+    {
+      "path": "logos/svg/kai-symbol-small-white.svg",
+      "sha256": "47c5e901f7a41d8269fda51e98fa02a8ffd762135bcaffa54167bd29cd67e48a"
+    },
+    {
+      "path": "logos/svg/kai-symbol-white.svg",
+      "sha256": "9621186559d9c8a7c2b8a84c663008950ecb4d06b03100e8144ba5d01fb15299"
+    },
+    {
+      "path": "logos/svg/kai-wordmark-black.svg",
+      "sha256": "cb8446791b3bb61c96c30ba6fc8a3dff9d1f2bbbcb07daa626cadfc9de3a6804"
+    },
+    {
+      "path": "logos/svg/kai-wordmark-on-dark.svg",
+      "sha256": "cfbba07f63454e416c5fbd5b6e97a70f82e34f6639c973f16da00a8849def014"
+    },
+    {
+      "path": "logos/svg/kai-wordmark-positive.svg",
+      "sha256": "a514832269c65638a2241a013e7b1667503f0e2c1ac195221a3ea7e6301a0698"
+    },
+    {
+      "path": "logos/svg/kai-wordmark-white.svg",
+      "sha256": "f9cb9302ff149085e7361b92bbc07402c4e90f1cd74698cdea6fd9d0ec9130ba"
+    },
+    {
+      "path": "templates/email-signature-logo@2x.png",
+      "sha256": "f5deee47caeea2ff5623f4ef96e22979993cd19ce067a3b71f5b3a1a56a373ce"
+    },
+    {
+      "path": "templates/email-signature.html",
+      "sha256": "4e0874b81db51da12c3a46936c2e88ec534f317c9c1b57b2cbc6f976287f5a20"
+    },
+    {
+      "path": "templates/office/kai-deck.potx",
+      "sha256": "c13ca550014459575529df2b8b7049232176836ec7b116c808f6369b6b637d70"
+    },
+    {
+      "path": "templates/office/kai-letter.dotx",
+      "sha256": "45605020c6a70f91eb0a3c6e6ec6c582f603be4b0ba23434f6960e01c79ade94"
+    },
+    {
+      "path": "templates/office/kai-product-sheet.dotx",
+      "sha256": "3802ed66443715e7c5b32d59a3f0bf90bf54aa59f9ef2f95a7ad121f7357bd9e"
+    },
+    {
+      "path": "templates/office/kai-report.dotx",
+      "sha256": "7090abe78521c7777f1069974b1299570f82b4ad8ac103496a3968f4418be41a"
+    },
+    {
+      "path": "templates/og-image-1200x630.png",
+      "sha256": "6121308448bd1769951ea6e7b8144b0b1b9ad0a406d7c16bf0c2178f081dfaa5"
+    },
+    {
+      "path": "templates/social-avatar-1024.png",
+      "sha256": "c85854b82752c8106e5a0351ae43cc96293aab14e5459c4762f86b4b6db6d2dd"
+    },
+    {
+      "path": "tokens/android/KaiTokens.kt",
+      "sha256": "c441a00dd208babf58953a0319f0c0be7050b2105579a4d00defce3468a31fc1"
+    },
+    {
+      "path": "tokens/android/res/values-night/kai_system.xml",
+      "sha256": "34ec2aa41fecd04b817279fbc87c43ca966670d09be53121a1756f5deb0d1740"
+    },
+    {
+      "path": "tokens/android/res/values/kai_system.xml",
+      "sha256": "e8d8909b95841ac4f5acce6ec8b5f8b834c55503e106adaa4d351f1eb275b7da"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/ActionPrimary.colorset/Contents.json",
+      "sha256": "a9047e69b56d6f58ce759c3c03aa62edf562825e80daf93bd069cc09ec28e055"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/ActionPrimaryHover.colorset/Contents.json",
+      "sha256": "4e24ddae57587fb76ba3a5aff43fa0721b70e511abeb4c561772512ba447cea0"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/ActionPrimaryPressed.colorset/Contents.json",
+      "sha256": "4221b84e89d8941dd18da9e7bc57bc0f1bbc1f8e33c39d6e566e389d41c88228"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiConfirmedBg.colorset/Contents.json",
+      "sha256": "b21e6648e082bbd62891c45e19797b6ff35ee0d49d1f4f1ec1bb5ee51f3ff4c1"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiConfirmedBorder.colorset/Contents.json",
+      "sha256": "ebd959efdfd6c5e98c856ae5757d0957798b66aa9be12a02e588b2b2807de89d"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiConfirmedMarker.colorset/Contents.json",
+      "sha256": "ebd959efdfd6c5e98c856ae5757d0957798b66aa9be12a02e588b2b2807de89d"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiContextBg.colorset/Contents.json",
+      "sha256": "bb9e51ccc1166d37c51896ca7764fadfe0d590f76a0641ef188f09c127422b94"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiContextBorder.colorset/Contents.json",
+      "sha256": "d581595fcf07fdfe7a587079f7df42e8d4d97c43656006a9ea049366698a34fb"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiContextMarker.colorset/Contents.json",
+      "sha256": "266546d615e335c2157699637f401c4e3237ecc6718d8601952c86fb7a793cc1"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiEvidenceBg.colorset/Contents.json",
+      "sha256": "bb9e51ccc1166d37c51896ca7764fadfe0d590f76a0641ef188f09c127422b94"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiEvidenceBorder.colorset/Contents.json",
+      "sha256": "d581595fcf07fdfe7a587079f7df42e8d4d97c43656006a9ea049366698a34fb"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiEvidenceMarker.colorset/Contents.json",
+      "sha256": "9c5f555ff369e6a25c6b0c6658466b5dd9e7015611b20cccd8567b5838472770"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiInferenceBg.colorset/Contents.json",
+      "sha256": "bb9e51ccc1166d37c51896ca7764fadfe0d590f76a0641ef188f09c127422b94"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiInferenceBorder.colorset/Contents.json",
+      "sha256": "536f3b21730a64bb2cbfd1a8f4e23e91b628ec669b877009331542a2aae04401"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiInferenceMarker.colorset/Contents.json",
+      "sha256": "ebd959efdfd6c5e98c856ae5757d0957798b66aa9be12a02e588b2b2807de89d"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiObservedBg.colorset/Contents.json",
+      "sha256": "bb9e51ccc1166d37c51896ca7764fadfe0d590f76a0641ef188f09c127422b94"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiObservedBorder.colorset/Contents.json",
+      "sha256": "ebd959efdfd6c5e98c856ae5757d0957798b66aa9be12a02e588b2b2807de89d"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiObservedMarker.colorset/Contents.json",
+      "sha256": "ebd959efdfd6c5e98c856ae5757d0957798b66aa9be12a02e588b2b2807de89d"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiRecommendationBg.colorset/Contents.json",
+      "sha256": "bb9e51ccc1166d37c51896ca7764fadfe0d590f76a0641ef188f09c127422b94"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiRecommendationBorder.colorset/Contents.json",
+      "sha256": "a9047e69b56d6f58ce759c3c03aa62edf562825e80daf93bd069cc09ec28e055"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiRecommendationMarker.colorset/Contents.json",
+      "sha256": "ebd959efdfd6c5e98c856ae5757d0957798b66aa9be12a02e588b2b2807de89d"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiRequestBg.colorset/Contents.json",
+      "sha256": "b21e6648e082bbd62891c45e19797b6ff35ee0d49d1f4f1ec1bb5ee51f3ff4c1"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiRequestBorder.colorset/Contents.json",
+      "sha256": "536f3b21730a64bb2cbfd1a8f4e23e91b628ec669b877009331542a2aae04401"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiRequestMarker.colorset/Contents.json",
+      "sha256": "266546d615e335c2157699637f401c4e3237ecc6718d8601952c86fb7a793cc1"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiTrackActive.colorset/Contents.json",
+      "sha256": "ebd959efdfd6c5e98c856ae5757d0957798b66aa9be12a02e588b2b2807de89d"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiTrackDone.colorset/Contents.json",
+      "sha256": "ebd959efdfd6c5e98c856ae5757d0957798b66aa9be12a02e588b2b2807de89d"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiTrackLine.colorset/Contents.json",
+      "sha256": "054a65f6436f8f1b37f1f9c8d8067e5f470c962f03a3908874e0ecf1ea25352c"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/AiTrackPending.colorset/Contents.json",
+      "sha256": "31766516c1988cd97294fedaaff40466730fade98a0802d77639c574a948c5cc"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/BgCanvas.colorset/Contents.json",
+      "sha256": "cd9cb438692f6fd1db1400cd778d2a856c319dce97201bb0f6c94c9cfa30575e"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/BgSunken.colorset/Contents.json",
+      "sha256": "b21e6648e082bbd62891c45e19797b6ff35ee0d49d1f4f1ec1bb5ee51f3ff4c1"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/BgSurface.colorset/Contents.json",
+      "sha256": "bb9e51ccc1166d37c51896ca7764fadfe0d590f76a0641ef188f09c127422b94"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/BorderStrong.colorset/Contents.json",
+      "sha256": "536f3b21730a64bb2cbfd1a8f4e23e91b628ec669b877009331542a2aae04401"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/BorderSubtle.colorset/Contents.json",
+      "sha256": "d581595fcf07fdfe7a587079f7df42e8d4d97c43656006a9ea049366698a34fb"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/BrandAction.colorset/Contents.json",
+      "sha256": "003ceda94ab9322450e87b74916677d76cd24fcd6625b538e7876ea5119c6084"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/BrandActionDark.colorset/Contents.json",
+      "sha256": "7101c2b5970d95f58ba7edce86c42a109870ebb9ef29bdae84708964cfbfb68d"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/BrandInk.colorset/Contents.json",
+      "sha256": "1381139920706137a75c219a1915c72cbcdea96bbefe59c4fea0ffbd1b43203d"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/BrandMark.colorset/Contents.json",
+      "sha256": "eb34795b7062513be9d9e7585dc5d2e15bba21bf4dbf1225f10c2c78059a3345"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/BrandMarkDark.colorset/Contents.json",
+      "sha256": "dec6a33d865f3412e4299f8d4f9e1e888b86f9623ca20adbaa5a1ee74ffa88c1"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/BrandOnInk.colorset/Contents.json",
+      "sha256": "5b79b5444edcbb2d7ff0d0e0ec41acbca7762f858c7cf21e5f2fee535afbb9d6"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/Contents.json",
+      "sha256": "f5fb0e1f3a8142892ed092efb5955c1c2cc537003a89ad7bbdb9dade7fe8985f"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataAxis.colorset/Contents.json",
+      "sha256": "5a097081cb618184028099a3675c25ef579079c01d39faedaf503182beb1ed71"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataDiv1.colorset/Contents.json",
+      "sha256": "eeb1c5f5956a54b1ff5a6ce061cfd73a1e7b83cfb8d75366b7f724609306a56d"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataDiv2.colorset/Contents.json",
+      "sha256": "30c719edb2755291b451ff8ade156fd567ea8bea669c27e013c6f1029aad5db0"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataDiv3.colorset/Contents.json",
+      "sha256": "049b2cee7d32d570e3689df5645ca937e71ab4452a1fc64139eb1ea13c9a9ed7"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataDiv4.colorset/Contents.json",
+      "sha256": "cfdb11c4fe024722a2794e7a9a89bcf151a60032e818135e5b67b826f1bf4cbb"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataDiv5.colorset/Contents.json",
+      "sha256": "9f1d64e3aa68e0fd1572cc411a1724e1691b96692e4460c6dba0ecc86342d2a5"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataDiv6.colorset/Contents.json",
+      "sha256": "cd8e88b9cb91668128e86cd58da93bc7a43635dc9722a19ead95a9327be1de14"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataDiv7.colorset/Contents.json",
+      "sha256": "911af16cc6a5ee5ac6f261532bd833e0e36fd3e6bf8633e5e7792ec726ced0d4"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataGap.colorset/Contents.json",
+      "sha256": "ee0c1c7316f903a9b0f3c30b97f7fddf549ed7186dff6fa55781124ac6348025"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataGrid.colorset/Contents.json",
+      "sha256": "188c843ff40ef466a431f0d6aaa636c11af1f2f0694b623a116836b3e047d701"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataSeq1.colorset/Contents.json",
+      "sha256": "06c2075c2e1d97db59c9d4cb73f95f6c39cb209b7cfde3f79ec80841a7441f2b"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataSeq2.colorset/Contents.json",
+      "sha256": "18f6ac05995632000ff4d2b3d9e9f445bc7442d49877c46c162160ac41042fdf"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataSeq3.colorset/Contents.json",
+      "sha256": "88a308c3bc77be5af2a7a6748a7dd9b4d5ac2bafe238d119e947091baa6253e2"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataSeq4.colorset/Contents.json",
+      "sha256": "10cc2bbb201781fe4e2b2f7817745d9dadfeab47fa66f16f2d4a8ddcd53e397b"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataSeq5.colorset/Contents.json",
+      "sha256": "0d6c46dc768387738b20e0d74f235c35015e62c9df88a5cdf303647ee6f586b8"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataSeq6.colorset/Contents.json",
+      "sha256": "29930e8c493475b6c5ff985dcc4d7896fb88a953f7f5e44d96827e77ea22f7c9"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataSeq7.colorset/Contents.json",
+      "sha256": "05478fe3f554f98ab0819b55fe7532d01469035dc01b3b030c895c40ccb67d7a"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataSeries1.colorset/Contents.json",
+      "sha256": "aa7f69c3eb0313b464f890a839bfe3870cf16aa3ad71ea72a9e34aa47561f717"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataSeries2.colorset/Contents.json",
+      "sha256": "79f909a7b1a6da2fc0bbad52497a1fdb6223a1a238862b42bc5fbb57af575a9c"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataSeries3.colorset/Contents.json",
+      "sha256": "e0a87738bf910472a39440bdd24038552abbf8c7101d7d35acbeec0e98519e17"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataSeries4.colorset/Contents.json",
+      "sha256": "882b6dc8a0ca39931ee86a8573d39218d97fcd3baca7a975ee424efd1b641fb0"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataSeries5.colorset/Contents.json",
+      "sha256": "969499045d0d3110209d3de68152d3a94b17914e7ae246006839be496da86ca5"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/DataSeries6.colorset/Contents.json",
+      "sha256": "e13f5a6b16903fc21bf1785229fce8bbce045bd44707f9a23455bb85f28c5503"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/FocusRing.colorset/Contents.json",
+      "sha256": "8954e3bafceb165a1bf8d895a110f4923df6467d8d0521fb33b05279395af1e4"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/SelectionBg.colorset/Contents.json",
+      "sha256": "634baf16c109c0409c06f5599635195a7744ba6ae0e66dfeac849034e12231e2"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/SelectionRule.colorset/Contents.json",
+      "sha256": "3701c1f423560d7e7657338351af72080dcdf7b8c6e82f747886e3b909f69066"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/StatusCriticalBg.colorset/Contents.json",
+      "sha256": "971e41960f6c60dd6f10c74e80df1c027df030613d2dae1cf2ab9197a4882c30"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/StatusCriticalBorder.colorset/Contents.json",
+      "sha256": "2a56fa3dea3ac957873ece162521f9454d15cc843c3bab345f57fd4b502bc185"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/StatusCriticalFg.colorset/Contents.json",
+      "sha256": "7648b4f5814e5ade7b6f5e4699c8425600ad55e230103159071622898642b7f6"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/StatusInfoBg.colorset/Contents.json",
+      "sha256": "24bc566f861fd7fd6d519f723a4b03a049401cbda966d00f27c1cdf04b87dec4"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/StatusInfoBorder.colorset/Contents.json",
+      "sha256": "22efc277feff24f87bf368b88f7f8ad5189514bdd4a84d3648f3532835f59a80"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/StatusInfoFg.colorset/Contents.json",
+      "sha256": "9c5f555ff369e6a25c6b0c6658466b5dd9e7015611b20cccd8567b5838472770"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/StatusNeutralBg.colorset/Contents.json",
+      "sha256": "24bc566f861fd7fd6d519f723a4b03a049401cbda966d00f27c1cdf04b87dec4"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/StatusNeutralBorder.colorset/Contents.json",
+      "sha256": "95483461170ac30904ef78079a57e00819b3b5433e078af63ca7c59385682b06"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/StatusNeutralFg.colorset/Contents.json",
+      "sha256": "266546d615e335c2157699637f401c4e3237ecc6718d8601952c86fb7a793cc1"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/StatusSuccessBg.colorset/Contents.json",
+      "sha256": "c3e6089b7ef829d4a559cf7738e49e7fca53e6c43e41b7514dbe38ce3628c122"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/StatusSuccessBorder.colorset/Contents.json",
+      "sha256": "8d5d92245c25b589be8e14ec2f7f34c8d2a28c87b59780477f30c810fe05d9f0"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/StatusSuccessFg.colorset/Contents.json",
+      "sha256": "b39b18b796da19001b63ec8fe7532de628fabb072c7066cddb6b7452aec5ac87"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/StatusWarningBg.colorset/Contents.json",
+      "sha256": "c3de9b785f9e8453053a424d8534a2a1cef780d4c565e5a2d343005b378378d4"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/StatusWarningBorder.colorset/Contents.json",
+      "sha256": "32ddbf364c98bd209500010236e1d4066e0334c72e81c36693b723a7379e7fda"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/StatusWarningFg.colorset/Contents.json",
+      "sha256": "971e36723463419ae0d5c025268486a63c329ec693e7146a013199d0a584b67b"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/TextDefault.colorset/Contents.json",
+      "sha256": "ebd959efdfd6c5e98c856ae5757d0957798b66aa9be12a02e588b2b2807de89d"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/TextDisabled.colorset/Contents.json",
+      "sha256": "910ca5e2494129cf6c5f44ead7a3231e45b5abed8e89cd1dad0e700e29f7928d"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/TextLink.colorset/Contents.json",
+      "sha256": "150cf6f22312a33186a3cfafafdd4955932b10d443a0dacebcf163acce135e85"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/TextMuted.colorset/Contents.json",
+      "sha256": "266546d615e335c2157699637f401c4e3237ecc6718d8601952c86fb7a793cc1"
+    },
+    {
+      "path": "tokens/apple/KaiColors.xcassets/TextOnAction.colorset/Contents.json",
+      "sha256": "8b87803ab913382f8283695f0d85b7b56fbd4636a272de6f8be21475758dd0f5"
+    },
+    {
+      "path": "tokens/apple/KaiTokens.swift",
+      "sha256": "6f0cef08df322ea12df93b9777ad4f7aa381763cbcfb4da87aa38488b30fb0ca"
+    },
+    {
+      "path": "tokens/devextreme/kai-dx-viz.json",
+      "sha256": "f55ab5437675f2440944b4db708deec4f2a49b765003e3a58fe247c448de1beb"
+    },
+    {
+      "path": "tokens/devextreme/themebuilder-kai-dark-hc.json",
+      "sha256": "6328a3926c739a3b9173dd74e413817df8e4ac83d44263b283db6b29753832f4"
+    },
+    {
+      "path": "tokens/devextreme/themebuilder-kai-dark.json",
+      "sha256": "679c00d4fa9b550bda8c297eb0e4e40ba1aee262fa6d4e932cc53f1ab18142f0"
+    },
+    {
+      "path": "tokens/devextreme/themebuilder-kai-light-hc.json",
+      "sha256": "4da0bdbce99cc20f11b58cf6dfb4390c1fbaa9b25583a6dfd10321214165e03d"
+    },
+    {
+      "path": "tokens/devextreme/themebuilder-kai-light.json",
+      "sha256": "ba03c6e87ff0ac58cb3bc9fc89a0a58ba96214f9d0fd73049a013e651559c8e4"
+    },
+    {
+      "path": "tokens/kai.tokens.css",
+      "sha256": "0f86b9b0aa340988bbfa8813f550888d31ce5d4f94f6d2d435eed8108278acd5"
+    },
+    {
+      "path": "tokens/kai.tokens.dark-hc.json",
+      "sha256": "135141a40757d8cd0ab3fbd42ad26a2db93865158737870d880a5f22931f6b74"
+    },
+    {
+      "path": "tokens/kai.tokens.dark.json",
+      "sha256": "871e1f4eb88244fb60289870a99d4aa250e0458dd8c13a860d086be2e40c040a"
+    },
+    {
+      "path": "tokens/kai.tokens.light-hc.json",
+      "sha256": "7a19a6cc7171f6f93ca1ec86f5e73a424dc6ce03b15c45c55ef178592f2bf0df"
+    },
+    {
+      "path": "tokens/kai.tokens.light.json",
+      "sha256": "0dd4c8af3114bf015772ef614cb4534ab0ae38e4ae1778c9ac218c264e0f288f"
+    }
+  ],
+  "source": {
+    "repository": "kuem-si/kai-visual-identity",
+    "tag": "identity-v1.6.0",
+    "commit": "c18ac2218c6072786e003f752b4eb39a228d90ee"
+  }
+}

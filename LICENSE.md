@@ -1,4 +1,4 @@
-# Licence · KAI brand assets identity-v1.5.0
+# Licence · KAI brand assets identity-v1.6.0
 
 ## 1. KAI marks: all rights reserved
 The KAI name, wordmark, symbol, lockups, endorsed lockup, app icons, favicons, social avatar, link-preview image,
